@@ -15,11 +15,11 @@ I'm open to collaborating on:
 ✅ Creative problem-solving and coding challenges!
 
 🛠️ Technologies & Skills
-Programming Languages: Java, C#
+Programming Languages: Java, C#, C++
 
 Databases: MySQL
 
-Tools & Frameworks: Android Studio, JavaFX, Swing, WinForms
+Tools & Frameworks: Unity, Android Studio, JavaFX, Swing, WinForms
 
 Other Skills: Problem-solving, UI/UX design for desktop & mobile apps
 
