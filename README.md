@@ -1,34 +1,48 @@
-👋 Hi, I’m Furkan Kırat!
+### Hi there, I'm Furkan Kırat 👋
+<p align="left">
+  <a href="https://www.linkedin.com/in/furkan-kirat-819050359" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:furkan.kirat01@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
-👀 About Me
-🎮 Passionate about game development and creating immersive experiences.
-🌱 Currently learning Java, C#, and exploring MySQL for database management.
-💻 Experienced in developing desktop and mobile applications, focusing on usability and functionality.
-🖌️ Interested in improving skills related to game mechanics, application design, and multiplayer networking.
+I am a Computer Science student at **Bilkent University**, deeply passionate about **high-performance systems programming** and **game development**.
 
-💞️ Collaboration
-I'm open to collaborating on:
-✅ Game development projects (2D games, mobile & desktop).
-✅ Android app development using Android Studio (Java).
-✅ Multiplayer networking and game server implementations.
-✅ Database design and management using MySQL.
-✅ Creative problem-solving and coding challenges!
+My goal isn't just to write code, but to engineer efficient, scalable, and clean software architectures.
 
-🛠️ Technologies & Skills
-Programming Languages: Java, C#, C++
+---
 
-Databases: MySQL
+### 🌱 What I'm Currently Working On
+I'm currently diving deep into my 2D Sandbox game project *DeepBound*, implementing an **A\* (A-Star) pathfinding** algorithm from scratch and designing a modular **Behavior Tree** for AI systems.
 
-Tools & Frameworks: Unity, Android Studio, JavaFX, Swing, WinForms
+---
 
-Other Skills: Problem-solving, UI/UX design for desktop & mobile apps
+### 🛠️ My Tech Stack
 
-🌟 Featured Projects
-🎭 Shadow of Roles – A turn-based role-playing game inspired by Town of Salem & Wolvesville, featuring multiplayer support.
-📱 Android Game Development – Developing mobile versions of role-based games in Android Studio.
-📊 EssenceHub – A business management system created with JavaFX and MySQL.
+<p align="left">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Java-f89820?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
+  
+  <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
+  
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet"/>
+</p>
 
+---
 
-⚡ Fun Fact
-I love finding hidden Easter eggs in video games and designing my own! 🐣🎮
+### 🏆 My Featured Projects
 
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **StructForge** | A high-performance C# Data Structures library. [**Published on NuGet**](https://www.nuget.org/packages/StructForge) | `C#` `.NET` `NuGet` |
+| **DeepBound** | A modular 2D sandbox game featuring custom systems: tile rendering, behavior AI, and save/load architecture. | `C#` `Unity` |
+| **Shadow of Roles** | A complete turn-based RPG, successfully [**Shipped and published on the Google Play Store.**](https://play.google.com/store/apps/details?id=com.kankangames.shadowofroles) | `C#` `Unity` `Android` |
+
+### 📈 GitHub Stats
+![Furkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=furkankirat&show_icons=true&theme=transparent&hide_border=true)
