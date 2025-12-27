@@ -45,4 +45,4 @@ I'm currently diving deep into my 2D Sandbox game project DeepBound, shifting fo
 | **Shadow of Roles** | A complete turn-based RPG, successfully [**Shipped and published on the Google Play Store.**](https://play.google.com/store/apps/details?id=com.kankangames.shadowofroles) | `C#` `Unity` `Android` |
 
 ### 📈 GitHub Stats
-![Furkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=furkankirat&show_icons=true&theme=transparent&hide_border=true)
+![Furkan's GitHub stats](https://github-readme-stats-bice-gamma.vercel.app/api?username=furkankirat&show_icons=true&theme=transparent&hide_border=true)
