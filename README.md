@@ -15,7 +15,7 @@ My goal isn't just to write code, but to engineer efficient, scalable, and clean
 ---
 
 ### 🌱 What I'm Currently Working On
-I'm currently diving deep into my 2D Sandbox game project *DeepBound*, implementing an **A\* (A-Star) pathfinding** algorithm from scratch and designing a modular **Behavior Tree** for AI systems.
+I'm currently diving deep into my 2D Sandbox game project DeepBound, shifting focus to Data-Oriented Design. I am implementing a custom Entity Component System (ECS) from scratch to optimize memory layout and handle complex game logic with maximum cache efficiency.
 
 ---
 
@@ -41,7 +41,7 @@ I'm currently diving deep into my 2D Sandbox game project *DeepBound*, implement
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **StructForge** | A high-performance C# Data Structures library. [**Published on NuGet**](https://www.nuget.org/packages/StructForge) | `C#` `.NET` `NuGet` |
-| **DeepBound** | A modular 2D sandbox game featuring custom systems: tile rendering, behavior AI, and save/load architecture. | `C#` `Unity` |
+| **DeepBound** | A modular 2D sandbox game featuring custom systems: tile rendering, custom ECS architecture, and efficient save/load structures. | `C#` `Unity` |
 | **Shadow of Roles** | A complete turn-based RPG, successfully [**Shipped and published on the Google Play Store.**](https://play.google.com/store/apps/details?id=com.kankangames.shadowofroles) | `C#` `Unity` `Android` |
 
 ### 📈 GitHub Stats
