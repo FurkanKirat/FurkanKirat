@@ -59,4 +59,4 @@ I am developing **DeepBound Engine Core**, a custom **Data-Oriented Game Engine 
 ---
 
 ### 📈 GitHub Stats
-![Furkan's GitHub stats](https://github-readme-stats-bice-gamma.vercel.app/api?username=furkankirat&show_icons=true&theme=transparent&hide_border=true)
+![Furkan's GitHub stats](https://github-readme-stats-bice-gamma.vercel.app/api?username=furkankirat&show_icons=true&theme=transparent&hide_border=true&count_private=true&rank_icon=github)
