@@ -7,44 +7,48 @@
   <a href="mailto:furkankirat01@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+  <a href="https://kankangames.com" target="_blank">
+    <img src="https://img.shields.io/badge/KanKan_Games-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="KanKan Games"/>
+  </a>
 </p>
 
-I am a **Computer Science** student at **Bilkent University**, specializing in **Systems Programming**, **Game Engine Architecture**, and **Memory Optimization**. I ranked **765th** among 3+ million candidates in the national entrance exam.
+I'm a Computer Science student at Bilkent University, focused on systems programming, game engine architecture, and high-performance software design.
 
-My focus is engineering efficient, cache-friendly software architectures. I build custom engines, memory allocators, and high-performance libraries with a strict discipline for zero-allocation hot paths.
+My interest lies in the engineering behind complex systems — building custom engines, memory allocators, and libraries with a strong focus on performance and clean architecture.
 
 ---
 
 ### 🚀 What I'm Currently Working On
 
-I am developing the **DeepBound Engine**, a modular 2D sandbox engine built with a focus on extreme scalability and performance.
+I'm building **Deepbound**, a 2D sandbox survival multiplayer game, as my primary engineering project — architected on a custom ECS, a custom mesh rendering pipeline, a networked client-side prediction system, and a versioned binary save system.
 
-* **Custom ECS:** Architected a Data-Oriented ECS supporting 256 component types via **bitmask filtering**, achieving O(1) query speeds.
-* **Performance:** Maintaining **500+ FPS** and near-zero GC pressure (<0.1 KB) with 2,000+ active entities using `ArrayPool<T>` and ref returns.
-* **Physics & World-Gen:** Implemented a **Spatial Hash Grid** to handle 6,000+ moving entities and a hybrid serialization system for worlds with **600k+ tiles**.
-* **Custom Tooling:** Developed an in-house **Fluent ClassBuilder API** to automate boilerplate generation for component savers and type registries.
+Right now I'm focused on stabilization and polish ahead of our Steam Next Fest demo in October — bug fixes, quality-of-life improvements, and hardening the multiplayer/save systems.
+
+The game has a live Steam Coming Soon page.
 
 ---
 
 ### 🛠️ Technical Skills
 
 **Languages**
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) 
-![Assembly](https://img.shields.io/badge/x86--64_Assembly-black?style=for-the-badge)
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 **Core Concepts & Systems**
-![Systems Programming](https://img.shields.io/badge/Systems_Programming-424242?style=for-the-badge) 
-![Data_Oriented_Design](https://img.shields.io/badge/Data--Oriented_Design-black?style=for-the-badge) 
-![Memory_Optimization](https://img.shields.io/badge/Memory_Management-00599C?style=for-the-badge) 
+
+![Systems Programming](https://img.shields.io/badge/Systems_Programming-424242?style=for-the-badge)
+![Software Architecture](https://img.shields.io/badge/Software_Architecture-black?style=for-the-badge)
+![Memory Management](https://img.shields.io/badge/Memory_Management-00599C?style=for-the-badge)
 ![ECS](https://img.shields.io/badge/Custom_ECS-239120?style=for-the-badge)
 
 **Tools & Engines**
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white) 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) 
+
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 
 ---
@@ -53,12 +57,9 @@ I am developing the **DeepBound Engine**, a modular 2D sandbox engine built with
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **DeepBound Engine** | **Targeting Steam.** Custom DOD Engine featuring O(1) ECS queries, Spatial Partitioning, and Zero-Alloc hot paths. | `C#` `ECS` `Systems` |
-| **Arena Allocator** | **High-perf C++ Allocator.** Achieved **19.4x speedup** over `new/delete` via O(1) bulk deallocation and bitwise alignment. | `C++20` `CMake` |
-| **StructForge** | **High-performance Data Structures.** 366x speedup in voxel analysis via SIMD/AVX. **2.8k+ downloads on NuGet**. | `C#` `.NET` `SIMD` |
-| **Shadow of Roles** | **Shipped Mobile RPG.** Led a 3-person team at **KankanGames** through the full development lifecycle. | `Unity` `C#` |
+| **Deepbound** | 2D sandbox survival multiplayer game with a custom ECS, custom rendering pipeline, and networked client-side prediction. Steam Coming Soon page live. | `C#` `ECS` `Unity` |
+| **Arena Allocator** | Header-only linear memory allocator achieving ~19.4x speedup over `new`/`delete` via O(1) bulk deallocation and bitwise alignment. | `C++20` `CMake` |
+| **StructForge** | Performance-focused C# data structures library (AVL Tree, SortedDictionary, SortedSet), published on NuGet with 3,000+ downloads. | `C#` `.NET` |
+| **Shadow of Roles** | Social deduction multiplayer game, co-developed and shipped to Google Play — from Java prototype to Unity/C# release. | `Unity` `C#` `Java` |
 
 ---
-
-### 📈 GitHub Stats
-![Furkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=furkankirat&show_icons=true&theme=transparent&hide_border=true&count_private=true&rank_icon=github)
